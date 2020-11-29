@@ -9,7 +9,7 @@
 
 原著作：https://github.com/DaidoujiChen/DaiLive2DPlayground
 
-套用他的做法去延續的
+套用他的做法去延續的，要直接用 Swift 接 c 的東西要改不少，乾脆直接包一層 obj-c++ 在裡面好了
 
 首先在 [這裡](https://drive.google.com/file/d/1vCwgwgv78u3U66thNA7VoGjdOdGiT7lV/view?usp=sharing) 載SDK下來後
 
@@ -21,8 +21,8 @@
 - 首先設置 `User Header Search Paths` </br>
 加上 </br>
 `$(SRCROOT)/$(PRODUCT_NAME)/Live2DSDK/include` </br>
- </br>
-<span style="color: #E1E100;">路徑以 `Live2dInSwift` 的路徑做比對</span> </br>
+
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 路徑以 `Live2dInSwift` 的路徑做比對
 
 - 設置 `Library Search Paths` </br>
 加上 </br>
