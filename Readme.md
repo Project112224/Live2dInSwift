@@ -1,5 +1,12 @@
 # Live2d on Swift
 
+編寫日期：2020/11/29
+
+建置版本
+Xcode 版本: 11.6
+OS: Mac catalina
+IOS: 13.6
+
 原著作：https://github.com/DaidoujiChen/DaiLive2DPlayground
 
 套用他的做法去延續的
@@ -27,6 +34,7 @@
 如果有重複的可以砍了那個重複的沒問題
 
 - `Other Linker Flags` 加上 `-lLive2D`
+讓 C 的編譯器吃到
 
 - 在 `Preprocessor Macros`
 各別加上
