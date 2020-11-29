@@ -2,10 +2,10 @@
 
 編寫日期：2020/11/29
 
-建置版本
-Xcode 版本: 11.6
-OS: Mac catalina
-IOS: 13.6
+建置版本:
+- Xcode 版本: 11.6
+- OS: Mac catalina
+- IOS: 13.6
 
 原著作：https://github.com/DaidoujiChen/DaiLive2DPlayground
 
