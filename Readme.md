@@ -23,27 +23,27 @@
 `$(SRCROOT)/$(PRODUCT_NAME)/Live2DSDK/include` </br>
  </br>
 <span style="color: #E1E100;">路徑以 `Live2dInSwift` 的路徑做比對</span> </br>
- </br>
+
 - 設置 `Library Search Paths` </br>
 加上 </br>
 `$(SRCROOT)/$(PRODUCT_NAME)/Live2DSDK/lib` </br>
- </br>
+
 - `Valid Architectures` </br>
 加上 </br>
 `$(ARCHS_STANDARD)` </br>
 如果有重複的可以砍了那個重複的沒問題 </br>
- </br>
+
 - `Other Linker Flags` 加上 `-lLive2D` </br>
 讓 C 的編譯器吃到 </br>
- </br>
+
 - 在 `Preprocessor Macros` </br>
 各別加上 </br>
 `L2D_TARGET_IPHONE` </br>
 不要蓋掉原本的 </br>
- </br>
+
 - 最後加上 `Objective-C Bridging Header` </br>
 `$(SRCROOT)/$(PRODUCT_NAME)/Live2DSDK/Header-live2dB.h` </br>
- </br>
+
 3. 加入 OpenGL 需要的 pkg </br>
 `OpenGLES`、`GLKit`、`CoreMotion`、`AVFoundation` </br>
 ![](https://i.imgur.com/KupWeQ5.png) </br>
@@ -52,6 +52,7 @@
 應該不會有錯誤...對！就是也不會有任何東西 </br>
  </br>
 5. 在加一點 code </br>
+
 ```
 import UIKit
 
@@ -70,6 +71,6 @@ class ViewController: UIViewController {
 
 }
 ```
- </br>
+
 6. 最後 <br>
 ![](https://i.imgur.com/BQ8dVoy.png)
