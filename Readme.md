@@ -14,7 +14,7 @@
 首先在 [這裡](https://drive.google.com/file/d/1vCwgwgv78u3U66thNA7VoGjdOdGiT7lV/view?usp=sharing) 載SDK下來後
 
 1. 加入專案裡, 注意 `Live2DResource` 這個檔案要用 reference 方式加入(總之就是資料夾要是藍色的啦) </br>
-![](https://i.imgur.com/cbiqzKw.png)
+<img src="https://i.imgur.com/cbiqzKw.png" width="300">
 
 2. 設置 Xcode </br>
 
@@ -73,4 +73,4 @@ class ViewController: UIViewController {
 ```
 
 6. 最後 <br>
-![](https://i.imgur.com/BQ8dVoy.png)
+<img src="https://i.imgur.com/BQ8dVoy.png" width="300">
